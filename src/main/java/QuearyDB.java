@@ -12,6 +12,7 @@ public class QuearyDB {
 
     public QuearyDB() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         st = ConnectToDB.getInstance().accessDataBase();
+       
     }
 
 
